@@ -4,21 +4,53 @@
 .menu-card{
     background-color: #fff;
     width: 200px;
-    height: 300px;
+    height: 250px;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: -5px 5px 10px 1px #e8e4e6;
+    box-shadow: -5px 5px 10px 1px #001e1d;
     border: solid 1px;
     flex-direction: row;
 
 }
+.menu-card:hover{
+    box-shadow: -5px 5px 10px 1px #004643;
+    cursor: pointer;
+}
+.menu-icon{
+    display: block;
+    height: 100px;
+    margin: 10px auto;
+
+}
+.menu-title{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.menu-description{
+    font-size: 14px;
+    margin-top: 0;
+}
 .menu-container{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
 
 
 }
-.menu-btn{
-    margin: 10px 10px;
+.menu-order-btn{
+    background-color:#e53170;
+    color: #fff;
+    border: none;
+    border-radius:5px;
+    padding: 1px 10px;
+    margin: 5px auto;
+    display: block;
+}
+.menu-order-btn:hover{
+border-radius: 25px;
+transition: 0.5s;
 }
