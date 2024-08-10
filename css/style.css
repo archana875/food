@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body{
+    background-color: #abd1c6;
+    margin: 0;
+    padding: 0;
+}
+.dancing-script{
+    font-family: 'Pacifico',cursive;
+}
+.bg-light{
+    background-color:#004643 ;
+}
+.bg-primary{
+    background-color: #abd1c6;
+}
+.bg-secondary{
+    background-color:#e16162;
+}
+.text-primary{
+    background-color: #abd1c6;
+}
+.text-secondary{
+    background-color: #e16162;
+
+}
+.text-dark{
+    background-color: #001e1d;
+
+}
+.text-center{
+    text-align: center;
+}
+.btn{
+    background-color: #e16162;
+    margin: 0 30px;
+    padding: 10px 30px;
+    width: 180px;
+    border-radius: 40px;
+    cursor:pointer;
+    border: none;
+    box-shadow: 0 5px #e16162; 
+    color: #001e1d;
+
+    
+    
+}
+.btn:hover{
+    border-radius: 20px;
+    transition: 4s;
+}
+.no-underline{
+    text-decoration: none;
+}
+.google-font{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+.fs-50{
+    font-size: 50px;
+}
+.cursive-fs{
+    font-family: cursive;
+    font-size: 30px;
+}
