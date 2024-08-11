@@ -1,0 +1,18 @@
+.about-heading{
+    height: 300px;
+    width: 400px;
+    margin: 10px auto;
+    border: solid 4px #001e1d;
+    border-radius: 2px;
+
+}
+.about-main{
+    display:flex;
+    
+    
+}
+.paragraph-about{
+    margin-top: 40;
+    margin-right: 80px;
+    font-size: 30px;
+}
