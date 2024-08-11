@@ -4,15 +4,49 @@
     margin: 10px auto;
     border: solid 4px #001e1d;
     border-radius: 2px;
-
 }
 .about-main{
     display:flex;
-    
-    
+    justify-content: space-around;
 }
+.cook-member{
+    color: #001e1d;
+    margin: 20px auto;
+    padding: 10px;
+}
+.member-img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+    .member-card{
+        background-color: #fff;
+        width: 200px;
+        height: 250px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: -5px 5px 10px 1px #001e1d;
+        border: solid 1px;
+        flex-direction: row;
+    
+    }
+    .member-card:hover{
+        background-color: #e16162;
+        transition: 0.7s;
+        border-radius: 30px;
+        cursor: pointer;
+    }
 .paragraph-about{
     margin-top: 40;
     margin-right: 80px;
     font-size: 30px;
+}
+.about-next-p{
+    
+    margin: 30px 100px;
+}
+.about-png{
+    margin: 10px 90px;
 }
